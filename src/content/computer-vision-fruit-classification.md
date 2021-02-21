@@ -2,7 +2,7 @@
 title: "Fresh and rotten apples classification"
 date: "2020-12-17"
 draft: false
-path: "/blog/../images/computer-vision-fruit-classification"
+path: "/blog/computer-vision-fruit-classification"
 ---
 ## EDA (exploratory data analysis)
 We will work on a database consisting of thousands of images of fresh and rotten fruits. The goal will be to build a model that is able to classify the apples into fresh or rotten.
