@@ -19,10 +19,12 @@ const Description = styled.p`
   padding: 0;
   margin-bottom: 1rem;
   font-size: 1.4rem;
+  font-weight: 300;
 `
 
 const NameHeader = styled.h1`
   font-size: 3.5rem;
+  font-weight: 200;
   margin-bottom: 0;
 `
 
