@@ -12,4 +12,4 @@ If you would like to contact me, please, [send me an email](mailto:atenrev@gmail
 
 ---
 
-> The Planet and the whole Universe belong to intelligence. -- Asimov
+> The Planet and the whole Universe belong to intelligence. --Asimov
