@@ -4,6 +4,7 @@ module.exports = {
     subtitle: `Data. Internet. Engineering. Future`,
     description: `The personal website for Sergi Masip, a computer engineer from Barcelona, Spain.`,
     author: `@Atenrev`,
+    siteUrl: `https://sergimasip.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
