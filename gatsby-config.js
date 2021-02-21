@@ -1,12 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Julia Doe`,
-    subtitle: `software developer`,
-    description: `A minimal blog starter built with Gatsbyjs. The needed Gatsby files are included.`,
-    author: `@niklasmtj`,
+    title: `Sergi Masip`,
+    subtitle: `Data. Internet. Engineering. Future`,
+    description: `The personal website for Sergi Masip, a computer engineer from Barcelona, Spain.`,
+    author: `@Atenrev`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -21,8 +23,6 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     `gatsby-plugin-emotion`,
     {
       resolve: `gatsby-transformer-remark`,
@@ -33,7 +33,14 @@ module.exports = {
             aliases:{sh: "bash", js:"javascript"},
             showLineNumbers: true,
           }
-        }],
+        },
+        {
+          resolve: `gatsby-remark-images`,
+          options: {
+            maxWidth: 590,
+          },
+        },
+      ],
       },
     },
     {
@@ -61,7 +68,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
