@@ -45,6 +45,7 @@ const LandingBio = () => (
         <Container>
           <NameHeader>{data.site.siteMetadata.title}</NameHeader>
           <Description>{data.site.siteMetadata.subtitle}</Description>
+          <a href="mailto:hello@sergimasip.com">hello@sergimasip.com</a>
         </Container>
       </OuterContainer>
     )}
