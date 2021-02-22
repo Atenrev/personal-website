@@ -22,6 +22,29 @@ section,
 summary {
   display: block;
 }
+
+main a {
+  text-decoration: none;
+  position: relative;
+
+  background-image: linear-gradient(
+    rgba(255, 250, 150, 0.8),
+    rgba(255, 250, 150, 0.8)
+  );
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+}
+
+main a:hover {
+  background-size: 100% 88%;
+}
+
+main a > code:hover {
+  text-decoration: underline;
+}
+
 audio,
 canvas,
 progress,
@@ -630,4 +653,44 @@ a::selection {
   html {
     font-size: 100%;
   }
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 860px;
+  padding: 1.45rem 1.0875rem;
+}
+
+.timeline {
+  position: relative;
+  width: 100%;
+  margin: 48px 0;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  background: hsla(0, 0%, 0%, 0.2);
+}
+
+.timeline li {
+  list-style: none;
+  position: relative;
+  width: 50%;
+  padding: 1.45rem;
+}
+
+.timeline li:nth-child(odd) {
+  float: left;
+  text-align: right;
+  clear: both;
+}
+
+.timeline li:nth-child(even) {
+  float: right;
+  text-align: left;
+  clear: both;
 }

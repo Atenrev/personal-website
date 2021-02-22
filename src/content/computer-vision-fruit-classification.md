@@ -2,7 +2,7 @@
 title: "Fresh and rotten apples classification"
 date: "2020-12-17"
 draft: false
-path: "/blog/computer-vision-fruit-classification"
+path: "/blog/computer-vision-fruit-classification/"
 ---
 In this post, we are going to implement different algorithms to classify images of fruits into two categories: fresh and rotten.
 

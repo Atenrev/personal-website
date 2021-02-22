@@ -2,7 +2,7 @@
 title: "Hello World"
 date: "2021-02-21"
 draft: false
-path: "/blog/hello-world"
+path: "/blog/hello-world/"
 ---
 Hello, world, and welcome to my personal website. I am a computer engineer located in Barcelona, Catalonia, passionate about Artificial Intelligence, computation, and making our species better. 
 

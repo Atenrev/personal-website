@@ -6,11 +6,6 @@ import styled from "@emotion/styled"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const Content = styled.div`
-  margin: 0 auto;
-  max-width: 860px;
-  padding: 1.45rem 1.0875rem;
-`
 
 const ArticleDate = styled.h5`
   display: inline;
@@ -37,8 +32,11 @@ const ReadingTime = styled.h5`
 const IndexPage = ({ data }) => {
   return (
     <Layout>
-      <SEO title="Blog" />
-      <Content>
+      <SEO
+        title="Blog"
+        description="The blog of Sergi Masip. Data, web, software, Artificial Intelligence, and much more."
+      />
+      <div className="container">
         <h1>Blog</h1>
         {data.allMarkdownRemark.edges
           .filter(({ node }) => {
@@ -64,7 +62,7 @@ const IndexPage = ({ data }) => {
               <p>{node.excerpt}</p>
             </div>
           ))}
-      </Content>
+      </div>
     </Layout>
   )
 }

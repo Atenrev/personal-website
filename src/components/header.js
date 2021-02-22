@@ -7,6 +7,8 @@ const Content = styled.div`
   max-width: 860px;
   padding: 1rem 1.0875rem;
   font-size: 1.2rem;
+  text-align: center;
+  line-height: 2rem;
 `
 
 const NavLink = styled(Link)`
@@ -52,7 +54,8 @@ const Header = ({ siteTitle }) => (
     <Content>
       <p>
         <HomeLink to="/">{siteTitle}</HomeLink>
-        <NavLink to="/blog">Blog</NavLink>
+        <NavLink to="/about/">About me</NavLink>
+        <NavLink to="/blog/">Blog</NavLink>
         <NavLink href="https://github.com/Atenrev">
           GitHub
         </NavLink>
