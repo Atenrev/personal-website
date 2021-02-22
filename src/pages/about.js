@@ -21,7 +21,7 @@ const TimeLineItemContent = styled.div`
 const AboutPage = () => (
     <Layout>
         <SEO
-            title="Home"
+            title="About me"
             description="I am Sergi Masip, a programmer since the age of 14 and a computer engineer really interested in Artificial Intelligence and Machine Learning."
             keywords={['sergi', 'masip', 'sergi masip', 'about', 'uab', 'universitat', 'autonoma', 'barcelona', 'eqtic', 'eqt', 'nicolau copernic', 'student', 'computer engineer', 'videogame', 'unity', 'django', 'web developer']}
         />
