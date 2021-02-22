@@ -8,7 +8,7 @@ Hello, world, and welcome to my personal website. I am a computer engineer locat
 
 Here you will find pieces of some of my work, whether I made them for university projects, personal projects, or companies.
 
-If you would like to contact me, please, [send me an email](mailto:atenrev@gmail.com) to my contact email or send me a message through [LinkedIn](https://www.linkedin.com/in/sergimasipcabeza/).
+If you would like to contact me, please, [send me an email](mailto:hello@sergimasip.com) to my contact email or send me a message through [LinkedIn](https://www.linkedin.com/in/sergimasipcabeza/).
 
 ---
 
