@@ -43,7 +43,7 @@ const AboutPage = () => (
                 </TimeLineItem>
                 <TimeLineItem>
                     <MarkedH3>2019 Jun-Sep</MarkedH3>
-                    <p>I worked for 3 months in <a href="https://eqtic.net/">EQTic</a>. I developed from scratch an internal application using Django. I also worked with Node-Red in an IoT-related web-app.</p>
+                    <p>I worked for 3 months at <a href="https://eqtic.net/">EQTic</a>. I developed from scratch an internal application using Django. I also worked with Node-Red in an IoT-related web-app.</p>
                 </TimeLineItem>
                 <TimeLineItem>
                     <MarkedH3>2019 Jun</MarkedH3>
@@ -63,7 +63,7 @@ const AboutPage = () => (
                 </TimeLineItem>
                 <TimeLineItem>
                     <MarkedH3>2017 Oct - 2018 Sep</MarkedH3>
-                    <p>I worked for 1 year in <a href="https://eqtic.net/">EQTic</a> developing web and IoT-related applications using technologies such as Java, Spring, Django, Node-Red, NodeJS, and ExpressJS.</p>
+                    <p>I worked for 1 year at <a href="https://eqtic.net/">EQTic</a> developing web and IoT-related applications using technologies such as Java, Spring, Django, Node-Red, NodeJS, and ExpressJS.</p>
                 </TimeLineItem>
                 <TimeLineItem>
                     <MarkedH3>2016-2018</MarkedH3>
