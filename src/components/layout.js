@@ -25,8 +25,7 @@ const GatsbyLink = styled.a`
 `
 
 const Footer = styled.footer`
-  display: flex;
-  justify-content: center;
+  text-align: center;
 `
 
 const Layout = ({ children }) => (
@@ -47,10 +46,9 @@ const Layout = ({ children }) => (
           <main>{children}</main>
           <Footer>
             <p>
-            © {new Date().getFullYear()} Sergi Masip Cabeza, Built with
-            {` `}
-            </p>
+            © {new Date().getFullYear()} Sergi Masip Cabeza, Built with 
             <GatsbyLink href="https://www.gatsbyjs.org">Gatsby</GatsbyLink>
+            </p>
           </Footer>
         </Content>
       </>
