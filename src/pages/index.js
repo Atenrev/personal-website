@@ -8,7 +8,7 @@ const IndexPage = () => (
   <Layout>
     <SEO 
     title="Home" 
-    keywords={['sergi', 'masip', 'sergi masip', 'software', 'data', 'web', 'engineer', 'developer', 'machine learning', 'artifical intelligence', 'unity']} 
+    keywords={['sergi', 'masip', 'sergi masip', 'contant', 'software', 'data', 'web', 'engineer', 'developer', 'machine learning', 'artifical intelligence', 'unity']} 
     />
     <LandingBio />
   </Layout>

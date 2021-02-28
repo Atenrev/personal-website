@@ -8,11 +8,11 @@ const Container = styled.div`
 `
 
 const OuterContainer = styled.div`
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  height: 78vh;
 `
 
 const Description = styled.p`
