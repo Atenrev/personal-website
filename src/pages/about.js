@@ -29,9 +29,9 @@ const AboutPage = () => (
             <h1>About me</h1>
             <p>
             I am Sergi Masip, a programmer since the age of 14 and a computer engineer really interested in Artificial Intelligence and Machine Learning. 
-            I am also experienced in web development with Django and game development with Unity. 
+            I am also experienced in web development with Django and React.js, mobile apps with Flutter, and game development with Unity. 
             <br></br><br></br>
-            Currently, I am working on a large application using Django as the backend and Flutter as the frontend. 
+            Currently, I am working on a large application using Django as the backend, React.js as the web frontend, and Flutter as the mobile app frontend. 
             Meanwhile, I am studying for a computer engineering degree at the <a href="https://www.uab.cat/">Autonomous University of Barcelona</a>.
             <br></br><br></br>I love Isaac Asimov.
             </p>
@@ -39,7 +39,7 @@ const AboutPage = () => (
             <ul className="timeline">
                 <TimeLineItem>
                     <MarkedH3>2020-</MarkedH3>
-                    <p>I am currently working on a large application developed with Django that consists of a Dashboard and an API to which a mobile application built in Flutter connects.</p>
+                    <p>I am currently working on a large application developed with Django that consists of a Dashboard and an API to which a mobile application built in Flutter and a single-page application built in React.js connect.</p>
                 </TimeLineItem>
                 <TimeLineItem>
                     <MarkedH3>2019 Jun-Sep</MarkedH3>
