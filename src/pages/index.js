@@ -92,8 +92,8 @@ const IndexPage = () => {
             <p>
               -rw-r--r-- 1 sergi masip 4096 Jun 31 20:22 <Link to="https://www.uab.cat/">uab_computer_engineering_graduation.txt</Link><br />
               -rw-r--r-- 1 sergi masip 341&nbsp; Dec 31 20:21 <Link to="http://www.cvc.uab.es/">4_month_CVC_research_internship.txt</Link><br />
-              -rw-r--r-- 1 sergi masip 256&nbsp; Sep 15 20:19 <Link to="https://eqtic.net/">3_month_exp_EQTic_as_webdev.txt</Link><br />
-              -rw-r--r-- 1 sergi masip 1024 Sep 15 20:18 <Link to="https://eqtic.net/">1_year_exp_EQTic_as_webdev.txt</Link><br />
+              -rw-r--r-- 1 sergi masip 256&nbsp; Sep 15 20:19 <Link to="http://eqtic.net/">3_month_exp_EQTic_as_webdev.txt</Link><br />
+              -rw-r--r-- 1 sergi masip 1024 Sep 15 20:18 <Link to="http://eqtic.net/">1_year_exp_EQTic_as_webdev.txt</Link><br />
               -rw-r--r-- 1 sergi masip 2048 Jan 31 20:18 <Link to="https://copernic.cat/">hnc_cross_platform_app_dev_graduation.txt</Link><br />
             </p>
             <Prompt command="ls">skills/</Prompt>
@@ -132,7 +132,7 @@ const IndexPage = () => {
             <p>Send an email to <a href="mailto:hello@sergimasip.com">hello@sergimasip.com</a></p>
             <p>Check my awesome projects at <Link to="https://github.com/Atenrev">Github</Link></p>
             <p>Add me on <Link to="https://www.linkedin.com/in/sergimasipcabeza/">Linkedin</Link></p>
-            <Prompt><span className="blink-animation">▮</span></Prompt>
+            <Prompt command=""><span className="blink-animation">▮</span></Prompt>
           </div>
         </div>
       </div>
