@@ -5,6 +5,10 @@ h2 {
     font: 100% $font-stack;
     color: $text-color;
     font-size: 20px;
+
+    @media only screen and (max-width: 768px) {
+        font-size: 1em;
+    }
 }
 
 main {
