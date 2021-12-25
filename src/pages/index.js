@@ -91,6 +91,7 @@ const IndexPage = () => {
             <p>
               -rw-r--r-- 1 sergi masip 4096 Jun 31 20:22 <a href="https://www.uab.cat/">uab-computer-engineering-graduation.txt</a><br />
               -rw-r--r-- 1 sergi masip 341&nbsp; Dec 31 20:21 <a href="http://www.cvc.uab.es/">4-month-CVC-research-internship.txt</a><br />
+              -rw-r--r-- 1 sergi masip 4096 Dec 31 20:20 <a href="http://humaninputs.com/">human-inputs-indie-video-game-developer.txt</a><br />
               -rw-r--r-- 1 sergi masip 256&nbsp; Sep 15 20:19 <a href="http://eqtic.net/">3-month-exp-EQTic-as-webdev.txt</a><br />
               -rw-r--r-- 1 sergi masip 1024 Sep 15 20:18 <a href="http://eqtic.net/">1-year-exp-EQTic-as-webdev.txt</a><br />
               -rw-r--r-- 1 sergi masip 2048 Jan 31 20:18 <a href="https://copernic.cat/">hnc-cross-platform-app-dev-graduation.txt</a><br />
@@ -104,8 +105,9 @@ const IndexPage = () => {
               <span>OpenCV</span>
               <span>Tensorflow/keras</span>
               <span>Sklearn</span>
-              <span>Django</span>
               <span>Unity 3D</span>
+              <span>Django</span>
+              <span>React</span>
               <span>Flutter</span>
             </p>
             <Prompt command="tail">./mywebsite/footer.html</Prompt>
