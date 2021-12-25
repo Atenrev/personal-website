@@ -128,7 +128,7 @@ const IndexPage = () => {
             <Prompt>./contact.me</Prompt>
             <p>Send an email to <a href="mailto:hello@sergimasip.com">hello@sergimasip.com</a></p>
             <p>Check my awesome projects at <a href="https://github.com/Atenrev">Github</a></p>
-            <p>Add me on <a href="https://www.linkedin.com/in/sergimasipcabeza/">aedin</a></p>
+            <p>Add me on <a href="https://www.linkedin.com/in/sergimasipcabeza/">Linkedin</a></p>
             <Prompt command=""><span className="blink-animation">▮</span></Prompt>
           </div>
         </div>
