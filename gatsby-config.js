@@ -1,87 +1,32 @@
 module.exports = {
   siteMetadata: {
-    title: `Sergi Masip`,
-    subtitle: `Data. Internet. Engineering. Future`,
-    description: `The personal website of Sergi Masip Cabeza, a computer engineer from Barcelona, Spain.`,
-    author: `@Atenrev`,
-    siteUrl: `https://sergimasip.com`,
-    email: `hello@sergimasip.com`,
+    siteUrl: "https://www.yourdomain.tld",
+    title: "sergimasip_v2",
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
+    "gatsby-plugin-sass",
+    "gatsby-plugin-image",
+    // "gatsby-plugin-fontawesome-css",
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-sitemap",
+    "gatsby-plugin-mdx",
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: "gatsby-source-filesystem",
       options: {
-        name: `markdown-pages`,
-        path: `${__dirname}/src/content`,
+        name: "images",
+        path: "./src/images/",
       },
+      __key: "images",
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: "gatsby-source-filesystem",
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        name: "pages",
+        path: "./src/pages/",
       },
+      __key: "pages",
     },
-    `gatsby-plugin-sharp`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-emotion`,
-    `gatsby-plugin-sitemap`,
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [`gatsby-remark-reading-time`, {
-          resolve: `gatsby-remark-prismjs`,
-          options: {
-            aliases:{sh: "bash", js:"javascript"},
-            showLineNumbers: true,
-          }
-        },
-        {
-          resolve: `gatsby-remark-images`,
-          options: {
-            maxWidth: 590,
-          },
-        },
-      ],
-      },
-    },
-    {
-      resolve: `gatsby-plugin-netlify`,
-      options: {
-        headers: {
-          "/*": [
-            "Strict-Transport-Security: max-age=63072000"
-          ]
-        }, // option to add more headers. `Link` headers are transformed by the below criteria
-        allPageHeaders: [], // option to add headers for all pages. `Link` headers are transformed by the below criteria
-        mergeSecurityHeaders: true, // boolean to turn off the default security headers
-        mergeLinkHeaders: true, // boolean to turn off the default gatsby js headers
-        mergeCachingHeaders: true, // boolean to turn off the default caching headers
-        transformHeaders: (headers, path) => headers, // optional transform for manipulating headers under each path (e.g.sorting), etc.
-        generateMatchPathRewrites: true, // boolean to turn off automatic creation of redirect rules for client only paths
-      },
-    },
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
-        start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
-      },
-    },
-    {
-      resolve: `gatsby-plugin-canonical-urls`,
-      options: {
-        siteUrl: `https://sergimasip.com`,
-      },
-    },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // 'gatsby-plugin-offline',
   ],
-}
+};
