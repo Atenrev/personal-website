@@ -10,7 +10,6 @@ import { StaticImage } from "gatsby-plugin-image"
 import "../styles/index.scss"
 import Seo from "../components/Seo"
 import Prompt from "../components/Prompt"
-import { Link } from "gatsby"
 
 
 // markup
@@ -56,14 +55,14 @@ const IndexPage = () => {
               <FaTerminal />
             </div>
             <div className="icon hoverable">
-              <Link to="https://github.com/Atenrev">
+              <a href="https://github.com/Atenrev">
                 <FaGithub />
-              </Link>
+              </a>
             </div>
             <div className="icon hoverable">
-              <Link to="https://www.linkedin.com/in/sergimasipcabeza/">
+              <a href="https://www.linkedin.com/in/sergimasipcabeza/">
                 <FaLinkedin />
-              </Link>
+              </a>
             </div>
           </div>
           <div className="column center-row">
@@ -74,9 +73,9 @@ const IndexPage = () => {
               <FaWifi />
             </div>
             <div className="icon">
-              <Link className="invisible-link" to="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+              <a className="invisible-link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
                 <FaVolumeUp />
-              </Link>
+              </a>
             </div>
             <div className="icon">
               <FaPowerOff />
@@ -90,26 +89,24 @@ const IndexPage = () => {
             <p>I am a Spanish Computer Engineering student focused on Artificial Intelligence and Machine Learning with wide experience in web, application, and video game development.</p>
             <Prompt command="ls -l">experience/</Prompt>
             <p>
-              -rw-r--r-- 1 sergi masip 4096 Jun 31 20:22 <Link to="https://www.uab.cat/">uab_computer_engineering_graduation.txt</Link><br />
-              -rw-r--r-- 1 sergi masip 341&nbsp; Dec 31 20:21 <Link to="http://www.cvc.uab.es/">4_month_CVC_research_internship.txt</Link><br />
-              -rw-r--r-- 1 sergi masip 256&nbsp; Sep 15 20:19 <Link to="http://eqtic.net/">3_month_exp_EQTic_as_webdev.txt</Link><br />
-              -rw-r--r-- 1 sergi masip 1024 Sep 15 20:18 <Link to="http://eqtic.net/">1_year_exp_EQTic_as_webdev.txt</Link><br />
-              -rw-r--r-- 1 sergi masip 2048 Jan 31 20:18 <Link to="https://copernic.cat/">hnc_cross_platform_app_dev_graduation.txt</Link><br />
+              -rw-r--r-- 1 sergi masip 4096 Jun 31 20:22 <a href="https://www.uab.cat/">uab-computer-engineering-graduation.txt</a><br />
+              -rw-r--r-- 1 sergi masip 341&nbsp; Dec 31 20:21 <a href="http://www.cvc.uab.es/">4-month-CVC-research-internship.txt</a><br />
+              -rw-r--r-- 1 sergi masip 256&nbsp; Sep 15 20:19 <a href="http://eqtic.net/">3-month-exp-EQTic-as-webdev.txt</a><br />
+              -rw-r--r-- 1 sergi masip 1024 Sep 15 20:18 <a href="http://eqtic.net/">1-year-exp-EQTic-as-webdev.txt</a><br />
+              -rw-r--r-- 1 sergi masip 2048 Jan 31 20:18 <a href="https://copernic.cat/">hnc-cross-platform-app-dev-graduation.txt</a><br />
             </p>
             <Prompt command="ls">skills/</Prompt>
-            <p>
-              <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", gap: "24px" }}>
-                <div>Machine Learning</div>
-                <div>Artificial Intelligence</div>
-                <div>Computer Vision</div>
-                <div>Pytorch</div>
-                <div>OpenCV</div>
-                <div>Tensorflow/keras</div>
-                <div>Sklearn</div>
-                <div>Django</div>
-                <div>Unity 3D</div>
-                <div>Flutter</div>
-              </div>
+            <p style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", gap: "24px" }}>
+              <span>Machine-Learning</span>
+              <span>Artificial-Intelligence</span>
+              <span>Computer-Vision</span>
+              <span>Pytorch</span>
+              <span>OpenCV</span>
+              <span>Tensorflow/keras</span>
+              <span>Sklearn</span>
+              <span>Django</span>
+              <span>Unity 3D</span>
+              <span>Flutter</span>
             </p>
             <Prompt command="tail">./mywebsite/footer.html</Prompt>
             <p>Copyright © Sergi Masip 2022 All rights reserved</p>
@@ -120,18 +117,18 @@ const IndexPage = () => {
             <p>
               my-projects/<br />
               ├─ human_inputs/<br />
-              │  ├─ <Link to="https://play.google.com/store/apps/details?id=com.HUMANINPUTS.taptapflamingo">tap_tap_flamingo.apk</Link><br />
-              │  ├─ <Link to="https://play.google.com/store/apps/details?id=com.HUMANINPUTS.FINGERIT">fingerit.apk</Link><br />
-              │  ├─ <Link to="https://humaninputs.itch.io/hackterm">hackterm.exe</Link><br />
-              ├─ <Link to="https://github.com/Atenrev/Deep-Image-Steganography-Reimplementation">Deep-Image-Steganography-Reimplementation.py</Link>
+              │  ├─ <a href="https://play.google.com/store/apps/details?id=com.HUMANINPUTS.taptapflamingo">tap_tap_flamingo.apk</a><br />
+              │  ├─ <a href="https://play.google.com/store/apps/details?id=com.HUMANINPUTS.FINGERIT">fingerit.apk</a><br />
+              │  ├─ <a href="https://humaninputs.itch.io/hackterm">hackterm.exe</a><br />
+              ├─ <a href="https://github.com/Atenrev/Deep-Image-Steganography-Reimplementation">Deep-Image-Steganography-Reimplementation.py</a>
             </p>
           </div>
 
           <div className="panel" style={{ gridArea: "other" }}>
             <Prompt>./contact.me</Prompt>
             <p>Send an email to <a href="mailto:hello@sergimasip.com">hello@sergimasip.com</a></p>
-            <p>Check my awesome projects at <Link to="https://github.com/Atenrev">Github</Link></p>
-            <p>Add me on <Link to="https://www.linkedin.com/in/sergimasipcabeza/">Linkedin</Link></p>
+            <p>Check my awesome projects at <a href="https://github.com/Atenrev">Github</a></p>
+            <p>Add me on <a href="https://www.linkedin.com/in/sergimasipcabeza/">aedin</a></p>
             <Prompt command=""><span className="blink-animation">▮</span></Prompt>
           </div>
         </div>
