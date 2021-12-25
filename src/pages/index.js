@@ -8,6 +8,7 @@ import { FaWifi } from "@react-icons/all-files/fa/FaWifi";
 import { StaticImage } from "gatsby-plugin-image"
 
 import "../styles/index.scss"
+import Seo from "../components/Seo"
 import Prompt from "../components/Prompt"
 import { Link } from "gatsby"
 
@@ -30,6 +31,14 @@ const IndexPage = () => {
 
   return (
     <main>
+      <Seo
+        title="Home"
+        keywords={['sergi', 'masip', 'sergi masip',
+          'software', 'data', 'web developer', 'app developer',
+          'engineer', 'developer', 'machine learning', 'artifical intelligence',
+          'unity3D', 'pytorch', 'computer vision', 'deep learning', 'research',
+          'uab', 'cvc', 'computer vision center', 'universitat autonoma de catalunya']}
+      />
       <div className="background">
         <StaticImage
           src="../images/background.jpg"
@@ -103,7 +112,7 @@ const IndexPage = () => {
               </div>
             </p>
             <Prompt command="tail">./mywebsite/footer.html</Prompt>
-            <p>Copyright © Sergi Masip 2021 All rights reserved</p>
+            <p>Copyright © Sergi Masip 2022 All rights reserved</p>
           </div>
 
           <div className="panel" style={{ gridArea: "projects" }}>
