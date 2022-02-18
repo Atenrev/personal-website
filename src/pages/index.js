@@ -122,7 +122,7 @@ const IndexPage = () => {
               │  ├─ <a href="https://play.google.com/store/apps/details?id=com.HUMANINPUTS.taptapflamingo">tap_tap_flamingo.apk</a><br />
               │  ├─ <a href="https://play.google.com/store/apps/details?id=com.HUMANINPUTS.FINGERIT">fingerit.apk</a><br />
               │  ├─ <a href="https://humaninputs.itch.io/hackterm">hackterm.exe</a><br />
-              ├─ <a href="https://github.com/Atenrev/Deep-Image-Steganography-Reimplementation">Deep-Image-Steganography-Reimplementation.py</a>
+              ├─ <a href="https://github.com/Atenrev/Deep-Image-Steganography-Reimplementation">Deep-Image-Steganography-Reimplementation.py</a><br />
               ├─ <a href="https://github.com/Atenrev/forocoches-language-generation">forocoches-language-generation.py</a>
             </p>
           </div>
