@@ -86,7 +86,7 @@ const IndexPage = () => {
         <div className="windows-container">
           <div className="panel" style={{ gridArea: "about" }}>
             <Prompt command="head">about_me.txt</Prompt>
-            <p>I am a Spanish Computer Engineering student focused on Artificial Intelligence and Machine Learning with wide experience in web, application, and video game development.</p>
+            <p>I am a Spanish Computer Engineer focused on Artificial Intelligence and Machine Learning with extensive experience in web, application, and video game development.</p>
             <Prompt command="ls -l">experience/</Prompt>
             <p>
               -rw-r--r-- 1 sergi masip 4096 Jun 31 20:22 <a href="https://www.uab.cat/">uab-computer-engineering-graduation.txt</a><br />
@@ -112,7 +112,7 @@ const IndexPage = () => {
             </p>
             <Prompt command="tail">./mywebsite/footer.html</Prompt>
             <p>Copyright © Sergi Masip 2022 All rights reserved</p>
-          </div>
+          </div> 
 
           <div className="panel" style={{ gridArea: "projects" }}>
             <Prompt command="tree">my_projects/</Prompt>
@@ -125,6 +125,7 @@ const IndexPage = () => {
               ├─ <a href="https://github.com/Atenrev/Deep-Image-Steganography-Reimplementation">Deep-Image-Steganography-Reimplementation.py</a><br />
               ├─ <a href="https://github.com/Atenrev/forocoches-language-generation">forocoches-language-generation.py</a><br />
               ├─ <a href="https://github.com/Atenrev/chessformers">chessformers.py</a>
+              ├─ <a href="https://github.com/Atenrev/comics-dialogue-generation">comics-dialogue-generation.py</a>
             </p>
           </div>
 
