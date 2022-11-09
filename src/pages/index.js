@@ -90,7 +90,7 @@ const IndexPage = () => {
             <Prompt command="ls -l">experience/</Prompt>
             <p>
               -rw-r--r-- 1 sergi masip 1024 Oct 01 20:23 <a href="https://mcv.uab.cat/">uab_upc_upf_uoc-master-computer-vision-graduation.txt</a><br />
-              -rw-r--r-- 1 sergi masip 256&nbsp; Sep 31 20:21 <a href="http://www.cvc.uab.es/">3-month-CVC-research-internship.txt</a><br />
+              -rw-r--r-- 1 sergi masip 256&nbsp; Sep 31 20:22 <a href="http://www.cvc.uab.es/">3-month-CVC-research-internship.txt</a><br />
               -rw-r--r-- 1 sergi masip 4096 Jun 31 20:22 <a href="https://www.uab.cat/">uab-computer-engineering-graduation.txt</a><br />
               -rw-r--r-- 1 sergi masip 341&nbsp; Dec 31 20:21 <a href="http://www.cvc.uab.es/">4-month-CVC-research-internship.txt</a><br />
               -rw-r--r-- 1 sergi masip 4096 Dec 31 20:20 <a href="http://humaninputs.com/">human-inputs-indie-video-game-developer.txt</a><br />
